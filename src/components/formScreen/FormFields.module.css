@@ -1,0 +1,59 @@
+.input-fields-cont {
+  width: 100%;
+  background-color: rgba(24,21,51, 0.45);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+}
+
+.info-icon {
+  position: absolute;
+  right: .3rem;
+  top: .3rem;
+  font-size: 15px!important;
+  fill: white!important;
+}
+
+.input-wrapper {
+  padding: .5rem 1rem 1rem 1rem;
+}
+
+.avatar {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.date {
+  margin-top: .5rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+.adornment{
+  margin-left: .5rem;
+}
+
+/* Date time picker css override */
+.date div {
+  border-radius: 12px;
+}
+
+.date > input {
+  padding: 9px 12px;
+  color: white;
+  border-radius: 10px !important;
+  background-color: #2F2C47;
+  outline: none;
+}
+
+.date fieldset {
+  border-color: #2F2C47!important;
+}
+
+.date > input:focus {
+  outline: none;
+}
